@@ -5,9 +5,9 @@
  * @see http://developer.chrome.com/trunk/apps/app.window.html
  */
 
-// chrome.app.runtime.onLaunched.addListener(function() {
-//   runApp();
-// });
+chrome.app.runtime.onLaunched.addListener(function() {
+  runApp();
+});
 
 /**
  * Listens for the app restarting then re-creates the window.
@@ -44,4 +44,5 @@ function runApp() {
     }
   );
   chrome.power.requestKeepAwake('display');
+
 }

@@ -1,10 +1,10 @@
 {
-  "manifest_version": 2.001,
+  "manifest_version": 2,
   "name": "Welcome Kiosk V2",
   "short_name": "Welcome-V2",
   "description": "Welcome Center app for The Journey",
 
-  "version": "0.0.2.3",
+  "version": "0.0.0.1",
 
   "icons": {
     "16": "assets/img/icon_16.png",
@@ -20,7 +20,8 @@
     "webview",
     "clipboardRead",
     "clipboardWrite",
-    "power"
+    "power",
+    "storage"
   ],
   "kiosk_enabled" : true
 }
