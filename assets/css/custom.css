@@ -1,0 +1,11 @@
+/*custom css*/
+
+h1.header {
+	background: url(../img/Kiosk-Wide_001.gif) center center no-repeat;
+	width: 100%;
+	height: 397px;
+	overflow: none;
+	text-indent: -10000px;
+	padding: 0;
+	margin: 0 0 100px 0;
+}
